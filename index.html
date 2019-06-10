@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex</title>
+</head>
+<body>
+    <div id="p1">1
+            <div id="p2">2
+                    <div id="p4">4</div>
+                    <div id="p5">5</div>
+            </div>
+            <div id="p3">3
+                    <div id="p6">6</div>
+                    <div id="p7">7</div>
+            </div>
+    </div>
+    
+    
+    
+    <div id="p8">8</div>
+    <div id="p9">9</div>
+    <div id="p10">10</div>
+    <script>
+        let p = []
+        let field
+        for (let i = 1; i <= 10; i++) {
+            field = "p"+i
+            let a = document.getElementById(field)
+            p.push(a)
+        }
+        console.log(p)
+    </script>
+</body>
+</html>
