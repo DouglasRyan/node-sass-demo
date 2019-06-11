@@ -1,0 +1,25 @@
+#p1{
+    display: flex;
+    border:1px solid red;
+    height:100px;
+    #p2,#p3{
+        display: flex;
+        border:1px solid green;
+
+        
+    }
+    #p2{
+        flex-basis: 200px;
+        background: rgb(66,99,22)
+    }
+    #p3{
+        display: flex;
+        flex-flow: column;
+        flex-grow: 1;
+        background:red;
+        #p6{
+            background: rgb(185, 224, 113)
+            
+        }
+    }
+}

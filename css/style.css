@@ -1,10 +1,17 @@
-body{
-    box-sizing: border-box;
-
-    
-}
-
-
-body p {
-    background: red;
-}
+#p1 {
+  display: flex;
+  border: 1px solid red;
+  height: 100px; }
+  #p1 #p2, #p1 #p3 {
+    display: flex;
+    border: 1px solid green; }
+  #p1 #p2 {
+    flex-basis: 200px;
+    background: #426316; }
+  #p1 #p3 {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    background: red; }
+    #p1 #p3 #p6 {
+      background: #b9e071; }
